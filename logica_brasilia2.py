@@ -41,9 +41,12 @@ def Menu():
             print(
                 "COMO JOGAR:\n" 
                 "\nVocê é o gestor de Brasília e precisa equilibrar as 4 forças que regem a sociedade:\n"
-                "[ P O P U L A Ç Ã O] (Nível de popularidade)"
-                "[ T E C N O L O G I A] (Nível de desenvolvimento tecnológico da cidade)\n"
-                ""
+                "[ P O P U L A Ç Ã O ] (Nível de popularidade)\n"
+                "[ E C O N O M I A ] (Quantidade de dinheiro nos cofres públicos)\n"
+                "[ T E C N O L O G I A ] (Nível de desenvolvimento tecnológico da cidade)\n"
+                "[ M E I O - A M B I E N T E ] (Qualidade do meio)\n"
+                "Seu trabalho é garantir que nenhum dos 4 indicadores chegue ao máximo ou ao mínimo"
+                "Digite 's' (sim) para aprovar"
                 )
             print("=" * 40 + "\n")
 
@@ -105,72 +108,81 @@ def mostrar_interface(pop, eco, meio, tec):
 #mensagens de morte 
 def maxTec():
     print('As BigTecs se enraizaram em Brasília. A única opção é se render aos interesses privados.\n')
-    print('Game Over')
+    print('\nGAME OVER\n')
+    input("\nPressione Enter para voltar ao Menu...")
 
 def minTec():
     print('Brasília é considerada a cidade mais mal desenvolvida do Brasil.\n')
-    print('Game Over')
+    print('\nGAME OVER\n')
+    input("\nPressione Enter para voltar ao Menu...")
     
 def maxPop():
     print('Você se tornou super popular, mas a fama também trás coisas ruins. Você foi assassinado enquanto discursava em público.\n')
-    print('Game Over')
+    print('\nGAME OVER\n')
+    input("\nPressione Enter para voltar ao Menu...")
     
 def minPop():
     print('A população está revoltada, as ruas estão lotadas e o povo pede por um novo gestor.\n')
-    print('Game Over')
+    print('\nGAME OVER\n')
+    input("\nPressione Enter para voltar ao Menu...")
     
 def maxMeio():
     print('As capivaras tomaram o poder. Todos se recusam a machucar um animal tão fofinho, o que resta é se render.\n')
-    print('Game Over')
+    print('\nGAME OVER\n')
+    input("\nPressione Enter para voltar ao Menu...")
     
 def minMeio():
     print('Brasília está em chamas.\n')
-    print('Game Over')
+    print('\nGAME OVER\n')
+    input("\nPressione Enter para voltar ao Menu...")
     
 def maxEco():
     print('Você está sendo investigado por corrupção. Sua populariade caiu e o povo pede por um novo gestor.\n')
-    print('Game Over')
+    print('\nGAME OVER\n')
+    input("\nPressione Enter para voltar ao Menu...")
+
     
 def minEco():
     print('Brasília é a cidade mais pobre do Brasil. O povo pede por um novo gestor.\n')
-    print('Game Over')
+    print('\nGAME OVER\n')
+    input("\nPressione Enter para voltar ao Menu...")
 
 #cria todos os eventos do jogo
 
 
-#verifica se algum dos indices chegou a 0 ou 100 (game over)
+#verifica se algum dos indices chegou a 0 ou 100 (GAME OVER)
 def checar_game_over(pop, eco, meio, tec):
     if pop <= 0:
         minPop()
-        sys.exit()
+        Menu()
 
     if pop >= 100:
         maxPop()
-        sys.exit()
+        Menu()
 
     if eco <= 0:
         minEco()
-        sys.exit()
+        Menu()
 
     if eco >= 100:
         maxEco()
-        sys.exit()
+        Menu()
 
     if meio <= 00:
         minMeio()
-        sys.exit()
+        Menu()
 
     if meio >= 100:
         maxMeio()
-        sys.exit()
+        Menu()
 
     if tec <= 0:
         minTec()
-        sys.exit()
+        Menu()
 
     if tec >= 100:
         maxTec()
-        sys.exit()
+        Menu()
 
 #lista de todos os eventos possiveis
 def evento1(stats):
@@ -573,7 +585,7 @@ def evento7final(stats):
         'TODOS os sistemas públicos caíram, Brasília está um caos!\n'
         'Aperte Enter para continuar'
           )
-    print('Game over')
+    print('GAME OVER')
     sys.exit()
           
 
