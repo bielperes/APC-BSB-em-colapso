@@ -1,6 +1,6 @@
 # script para substituir prints de eventos por print_event quando apropriado
 import re
-p = r"c:\\Users\\Pevit\\OneDrive\\Documentos\\cursoJS\\logica_brasilia2.py"
+p = r"c:\\logica_brasilia.py"
 with open(p, 'r', encoding='utf-8', errors='replace') as f:
     s = f.read()
 
@@ -33,3 +33,4 @@ if replacements:
     with open(p, 'w', encoding='utf-8') as f:
         f.write(new_s)
 print(f"Feito: {replacements} substituições")
+
