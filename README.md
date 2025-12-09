@@ -213,17 +213,18 @@ def eventoX(stats):
 
 ## 👥 Créditos
 
-Desenvolvido por:
-- **Pedro Vítor de Mendonça Furtado**
-- **Gusthavo de Oliveira Silva**
-- **Marco Antônio Lopes de Medeiros**
-- **Gabriel Peres de Oliveira**
+### Equipe (ordenado alfabeticamente):
+- Gabriel Peres de Oliveira
+- Gusthavo de Oliveira Silva
+- Marco Antônio Lopes de Medeiros
+- Pedro Vítor de Mendonça Furtado
 
-Trabalho Final de APC - Universidade de Brasília
+### Tutor/monitor da equipe:
+- Danilo Hermano Calegario de Oliveira
 
 ## 📄 Licença
 
-Este projeto foi desenvolvido para fins educacionais.
+Este projeto foi desenvolvido como Projeto Final da disciplina "CIC0004 - Algoritmos e Programação de Computadores" do Departamento de Ciência da Computação da Universidade de Brasília, no segundo semestre de 2025, ministrada pelo Prof. Dr. Edison Ishikawa.
 
 ## 🔗 Links Úteis
 
