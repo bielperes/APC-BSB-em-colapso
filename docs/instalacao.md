@@ -61,12 +61,12 @@ pip install -r requirements.txt
 ### 5. Executar o Jogo
 
 ```bash
-python logica_brasilia2.py
+python logica_brasilia.py
 ```
 
 Ou no macOS/Linux:
 ```bash
-python3 logica_brasilia2.py
+python3 logica_brasilia.py
 ```
 
 ## Solução de Problemas

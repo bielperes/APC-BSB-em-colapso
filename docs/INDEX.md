@@ -17,7 +17,7 @@ Este documento serve como guia de navegação para toda a documentação do proj
 
 ---
 
-### [README-Claude.md](../README-Claude.md)
+### [DOCUMENTATION.md](../DOCUMENTATION.md)
 **Documentação técnica detalhada original**
 - Análise profunda da estrutura do código
 - Descrição detalhada de todos os eventos
@@ -145,12 +145,12 @@ Este documento serve como guia de navegação para toda a documentação do proj
 ### "Quero contribuir"
 1. [CONTRIBUTING.md](../CONTRIBUTING.md) - Regras de contribuição
 2. [Documentação Técnica](tecnica.md) - Entender o código
-3. [README-Claude.md](../README-Claude.md) - Referência completa
+3. [DOCUMENTATION.md](../DOCUMENTATION.md) - Referência completa
 
 ### "Quero entender o código"
 1. [Documentação Técnica](tecnica.md) - Estrutura e funções
-2. [README-Claude.md](../README-Claude.md) - Análise detalhada
-3. Código fonte: `logica_brasilia2.py`
+2. [DOCUMENTATION.md](../DOCUMENTATION.md) - Análise detalhada
+3. Código fonte: `logica_brasilia.py`
 
 ### "Quero adicionar novos eventos"
 1. [CONTRIBUTING.md](../CONTRIBUTING.md) - Estrutura de eventos
@@ -168,7 +168,7 @@ Este documento serve como guia de navegação para toda a documentação do proj
 | Documento | Linhas | Palavras (aprox.) | Tempo de Leitura |
 |-----------|--------|-------------------|------------------|
 | README.md | 236 | ~1800 | 10 min |
-| README-Claude.md | 210 | ~1600 | 25 min |
+| DOCUMENTATION.md | 210 | ~1600 | 25 min |
 | instalacao.md | 150 | ~900 | 8 min |
 | gameplay.md | 271 | ~2100 | 20 min |
 | tecnica.md | 741 | ~5500 | 30 min |
@@ -182,7 +182,7 @@ Este documento serve como guia de navegação para toda a documentação do proj
 
 ### Quando adicionar novos eventos:
 - [ ] Atualizar lista no README.md
-- [ ] Documentar no README-Claude.md
+- [ ] Documentar no DOCUMENTATION.md
 - [ ] Adicionar ao CHANGELOG.md
 - [ ] Se for tipo novo, atualizar gameplay.md e tecnica.md
 

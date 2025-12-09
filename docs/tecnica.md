@@ -4,17 +4,17 @@
 
 ### Visão Geral
 
-O projeto BSB em Colapso é um jogo textual implementado em Python usando programação procedural. A estrutura é monolítica, com toda a lógica contida no arquivo principal `logica_brasilia2.py`.
+O projeto BSB em Colapso é um jogo textual implementado em Python usando programação procedural. A estrutura é monolítica, com toda a lógica contida no arquivo principal `logica_brasilia.py`.
 
 ### Estrutura de Arquivos
 
 ```
 APC-BSB-em-colapso/
-├── logica_brasilia2.py          # Arquivo principal do jogo
+├── logica_brasilia.py              # Arquivo principal do jogo
 ├── apply_color_to_events.py     # Script utilitário para colorização
 ├── requirements.txt              # Dependências do projeto
 ├── README.md                     # Documentação principal
-├── README-Claude.md              # Documentação técnica detalhada
+├── DOCUMENTATION.md              # Documentação técnica detalhada
 ├── LICENSE                       # Licença MIT
 ├── CONTRIBUTING.md               # Guia de contribuição
 ├── CHANGELOG.md                  # Histórico de mudanças

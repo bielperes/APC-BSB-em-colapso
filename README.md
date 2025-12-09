@@ -48,14 +48,14 @@ pip install -r requirements.txt
 
 3. Execute o jogo:
 ```bash
-python logica_brasilia2.py
+python logica_brasilia.py
 ```
 
 ## 🎯 Como Jogar
 
 ### Inicialização
 
-1. Execute o arquivo principal `logica_brasilia2.py`
+1. Execute o arquivo principal `logica_brasilia.py`
 2. No menu inicial, escolha:
    - `1` - Iniciar novo jogo
    - `2` - Ver créditos
@@ -127,10 +127,10 @@ Um recurso especial que pode ser desbloqueado durante o jogo (Evento 10A), exibi
 
 ### Arquivos Principais
 
-- `logica_brasilia2.py`: Arquivo principal do jogo contendo toda a lógica
+- `logica_brasilia.py`: Arquivo principal do jogo contendo toda a lógica
 - `apply_color_to_events.py`: Script utilitário para aplicar cores aos eventos
 - `README.md`: Documentação principal (este arquivo)
-- `README-Claude.md`: Documentação técnica detalhada
+- `DOCUMENTATION.md`: Documentação técnica detalhada
 
 ### Funções Principais
 
@@ -227,7 +227,7 @@ Este projeto foi desenvolvido para fins educacionais.
 
 ## 🔗 Links Úteis
 
-- [Documentação Técnica Detalhada](README-Claude.md)
+- [Documentação Técnica Detalhada](DOCUMENTATION.md)
 - [Python Official Documentation](https://docs.python.org/3/)
 - [Colorama Library](https://pypi.org/project/colorama/)
 
