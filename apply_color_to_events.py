@@ -1,6 +1,6 @@
 # script para substituir prints de eventos por print_event quando apropriado
 import re
-p = r"c:\\logica_brasilia.py"
+p = r"C:\Users\Pevit\OneDrive\Documentos\cursoJS\apply_color_to_events.py"
 with open(p, 'r', encoding='utf-8', errors='replace') as f:
     s = f.read()
 
@@ -33,4 +33,3 @@ if replacements:
     with open(p, 'w', encoding='utf-8') as f:
         f.write(new_s)
 print(f"Feito: {replacements} substituições")
-
