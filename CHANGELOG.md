@@ -20,7 +20,7 @@ e este projeto adere ao [Semantic Versioning](https://semver.org/lang/pt-BR/).
 - Modo software (exibição de valores numéricos)
 - Documentação completa do projeto
 - README.md em português com instruções detalhadas
-- README-Claude.md com documentação técnica
+- DOCUMENTATION.md com documentação técnica
 - requirements.txt com dependências
 - .gitignore para Python
 - LICENSE (MIT)

@@ -1,6 +1,6 @@
 # script para substituir prints de eventos por print_event quando apropriado
 import re
-p = r"c:\\Users\\Pevit\\OneDrive\\Documentos\\cursoJS\\logica_brasilia2.py"
+p = r"c:\\Users\\Pevit\\OneDrive\\Documentos\\cursoJS\\logica_brasilia.py"
 with open(p, 'r', encoding='utf-8', errors='replace') as f:
     s = f.read()
 

@@ -268,4 +268,4 @@ Boa sorte, Gestor! Brasília conta com você! 🏛️🇧🇷
 
 **Veja também:**
 - [README principal](../README.md)
-- [Documentação técnica](../README-Claude.md)
+- [Documentação técnica](../DOCUMENTATION.md)
